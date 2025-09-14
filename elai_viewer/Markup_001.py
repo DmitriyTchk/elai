@@ -763,8 +763,8 @@ def view_annotated_frames(frames_dir, annotations_dir):
         print("Окно уже было уничтожено, пропускаем destroy")
 
 # Установка пути к директории с кадрами
-frames_directory = r"D:\ИИ_Команда\Проект_Ресторан19.11.2024\Блокноты\Скрипт для разметки\frames"
+frames_directory = r"D:\Указать путь к директории с кадрами"
 # Установка пути к директории с аннотациями
-annotations_directory = r"D:\ИИ_Команда\Проект_Ресторан19.11.2024\Блокноты\Скрипт для разметки\annotations"
+annotations_directory = r"D:\Указать путь к директории с аннотациями"
 # Вызов функции просмотра аннотированных кадров с указанными директориями
 view_annotated_frames(frames_directory, annotations_directory)
